@@ -1,14 +1,14 @@
-function checkPalindrome(str) {
+function checkPalindrome(str: string):void {
 
     if(str.length <= 1) {
         return console.log("String is palindrome")
     }
 
-    let strArr = str.split('');
-    let i = 0;
-    let j = strArr.length-1;
+    let strArr:string[] = str.split('');
+    let i:number = 0;
+    let j:number = strArr.length-1;
 
-    let isPalindrome = false;
+    let isPalindrome:boolean = false;
 
     while(i < j) {
         if(strArr[i] === str[j]) {
@@ -28,8 +28,8 @@ function checkPalindrome(str) {
     }
 }
 
-function checkPalindrome1(str) {
-    let reverseStr = str.split('').reverse().join('');
+function checkPalindrome1(str:string):void {
+    let reverseStr:string = str.split('').reverse().join('');
     if(reverseStr === str) {
         console.log("String is palindrome");
     } else {
