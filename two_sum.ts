@@ -1,63 +1,61 @@
-// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+// Given an array of integers twoSumArr and an integer target, return indices of the two numbers such that they add up to target.
 
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
+// Define an array of numbers
+let twoSumArr: number[] = [1, 3, 7, 9, 2];
 
+// Brute force approach to find two numbers that add up to a target.
+// Time Complexity: O(N^2) || Space Complexity: O(1)
+function twoSum(arr: number[], target: number): void {
 
-let twoSumArr:number[] = [1, 3, 7, 9, 2];
+    // Take each element from the array
+    for (let i: number = 0; i < arr.length; i++) {
+        // Find the complement for each element
+        let compliment: number = target - arr[i];
 
-// Brute force - Time Complexity - O(N^2) || Space Complexity - O(1)
-function twoSum(arr:number[], target:number):void {
-
-    // Initialize two variables to store the fist index, the second index
-    let firstIndex:number = 0;
-    let secondIndex:number = 0;
-
-    // Take element from array
-    for(let i:number = 0; i < arr.length; i++) {
-
-        // Find compliment for each element
-        let compliment:number = target - arr[i];
-
-        // find complement in given array
-        for(let j:number = i; j < arr.length; j++) {
-
-            // If complement found in array, then assign i and j to the first index and second index, and then break the loop
-            if(arr[j] === compliment) {
-                firstIndex = i;
-                secondIndex = j;
-                break; 
+        // Iterate through the array to find the complement
+        for (let j: number = i; j < arr.length; j++) {
+            // If the complement is found in the array, log the ith index, jth index and break the loop
+            if (arr[j] === compliment) {
+                console.log(i, j);
+                return;
             }
-
         }
-    } 
-
-    // Console the first index and second index
-    console.log(firstIndex, secondIndex);
-} 
-
-// Optimal Solution - Time Complexity - O(n) || Space Complexity - O(n)
-function twoSum1(arr:number[], target:number):void {
-
-    let numMap:Map<number, number> = new Map<number, number>();
-
-    // Iterate through each element 
-    for(let i:number = 0; i < arr.length; i++) {
-
-        // Find the compliment
-        let compliment:number = target - arr[i];
-
-        // Check if compliment is in the map, if it is, then return its index, and current element's index;
-        if(numMap.get(compliment)) {
-            console.log(numMap.get(compliment), i);
-            break;
-        } 
-
-        // If not then store current element as key and it's index as value in numMap;
-        numMap.set(arr[i], i);
     }
+
+    // If no solution is found, log null
+    console.log(null);
 }
 
-twoSum(twoSumArr, 10);
+// Optimal solution to find two numbers that add up to a target.
+// Time Complexity: O(N) || Space Complexity: O(N)
+function twoSum1(arr: number[], target: number): void {
 
-twoSum1(twoSumArr, 10);
+    // Initialize the Map
+    let numMap: Map<number, number> = new Map<number, number>();
+
+    // Iterate through each element in the array
+    for (let i: number = 0; i < arr.length; i++) {
+        // Find the complement
+        let complement: number = target - arr[i];
+
+        // Check if the complement is in the map; if it is, return its index and the current element's index
+        if (numMap.get(complement) !== undefined) {
+            console.log(numMap.get(complement), i);
+            return;
+        }
+
+        // If the complement is not in the map, store the current element as a key and its index as a value in numMap
+        numMap.set(arr[i], i);
+    }
+
+    // If no solution is found, log null
+    console.log(null);
+}
+
+// Call the brute force function to find the indices of two numbers that add up to 5
+twoSum(twoSumArr, 5);
+
+// Call the optimal solution function to find the indices of two numbers that add up to 5
+twoSum1(twoSumArr, 5);
