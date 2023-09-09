@@ -147,6 +147,11 @@ The below table includes all the questions, which I have solved.
 2. [Alogrithms - Part 1 By Coursera](https://www.coursera.org/learn/algorithms-part2)
 3. [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
 4. [Strivers A2Z DSA Course/Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
+5. [Study Guide by Subjects](https://leetcode.com/discuss/study-guide/1098600/TOPICS-WHICH-YOU-CAN'T-SKIP-INTERVIEW-PREPARATION-or-STUDY-PLAN-USING-LEETCODE)
+6. [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+7. [Comprehensive Data Structure and Algorithm Study Guide](https://leetcode.com/discuss/study-guide/494279/Comprehensive-Data-Structure-and-Algorithm-Study-Guide)
+8. [Object Oriented Programming](https://leetcode.com/discuss/study-guide/1852219/Object-Oriented-Programming-Made-Easy)
+9. [Visualizing DSA through Animation](https://visualgo.net/en)
 
 ## FAQ
 
