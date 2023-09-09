@@ -139,6 +139,8 @@ The below table includes all the questions, which I have solved.
 | 5 | [Check provided two strings are anagram of each others](./anagrams.ts) | 
 | 6 | [Find linked list midpoint](./linkedlist_midpoint.ts) | 
 | 7 | [Two sum problem](./two_sum.ts) | 
+| 8 | [Sort array of 0s, 1s and 2s](./array/sort_0_1_2.ts) | 
+| 9 | [Find min and max element in array](./array/find_min_max.ts) | 
 
 
 ## Other Resources

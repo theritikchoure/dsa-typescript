@@ -1,4 +1,4 @@
-let arr = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+let arrForChunking = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 
 function arrayChunking(arr:number[], n:number):void {
     let chunkedArr:any = [];
@@ -18,4 +18,4 @@ function arrayChunking(arr:number[], n:number):void {
 }
 
 
-arrayChunking(arr, 5);
+arrayChunking(arrForChunking, 5);
