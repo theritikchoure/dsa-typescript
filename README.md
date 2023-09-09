@@ -2,6 +2,15 @@
 
 Welcome to the Data Structures and Algorithms (DSA) repository! This repository is dedicated to providing a collection of DSA problems and their solutions in a clear and well-documented format.
 
+<!-- Badges -->
+[![](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/ritikchourasiya/)
+[![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ritikchourasiya/)
+[![](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ritikchourasiya/)
+
+
+
+> For me _great algorithms are the poetry of computation._ Just like verse, they can be terse, allusive, dense and even mysterious. But once unlocked, they cast a brilliant new light on some aspect of computing. <br><br> - Francis Sullivan
+
 # Table of Contents
 
 1. [Big O](#big-0)
@@ -71,6 +80,8 @@ t│    .
  └────────────────────────►
               n
 ```
+* This figure is taken from [Complexit Analysis by @Spring1843](https://github.com/spring1843/go-dsa/blob/main/complexity.md)
+
 
 To understand the big O notation, let us focus on time complexity and specifically examine the O(n) diagram. This diagram depicts a decline in algorithm performance as the input size increases. In contrast, the O(1) diagram represents an algorithm that consistently performs in constant time, with input size having no impact on its efficiency. Consequently, the latter algorithm generally outperforms the former.
 
