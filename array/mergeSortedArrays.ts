@@ -74,8 +74,8 @@ function mergeSortedArraysWithoutExtraSpace(arr1:number[], arr2:number[]):void{
     console.log(arr1, arr2)
 }
 
-const nums1: number[] = [1, 3, 5, 7];
-const nums2: number[] = [0, 2, 6, 8, 9];
+const nums1: number[] = [1, 12, 15, 26, 38];
+const nums2: number[] = [2, 13, 17, 30, 45];
 
 const mergedArray: number[] = mergeSortedArrays(nums1, nums2);
 console.log(mergedArray); // [0, 1, 2, 3, 5, 6, 7, 8, 9]
