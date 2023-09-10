@@ -1,3 +1,11 @@
+
+
+// --------------------------------------------------------------------------------------------------------------------
+
+// BRUTE FORCE APPROACH
+
+// Time Complexity - O(n+m), where n is the length of the arr1 and m is the length of the arr2
+// Space Complexity - O(n+m), where n is the length of the array1 and m is the length of the array2
 function mergeSortedArrays(arr1: number[], arr2: number[]): number[] {
     // Initialize an empty array to store the merged result
     let mergeArr: number[] = [];
@@ -38,8 +46,40 @@ function mergeSortedArrays(arr1: number[], arr2: number[]): number[] {
     return mergeArr; // Return the merged array
 }
 
-const nums1: number[] = [1, 2, 3];
-const nums2: number[] = [2, 5, 6];
+
+// --------------------------------------------------------------------------------------------------------------------
+
+// OPTIMAL SOLUTION (without using extra space)
+// Time Complexity - O(min(m, n)) + O(n log n) + O(m log m), where n is the length of arr1 and m is the length of arr2
+// Explanation: O(min(m, n)) to traverse the array, O(n log n) to sort the arr1 and O(m log m) to sort the arr2
+
+// Space Complexity - O(1), we are not using extra space
+function mergeSortedArraysWithoutExtraSpace(arr1:number[], arr2:number[]):void{
+    let left:number = arr1.length;
+    let right:number = 0;
+
+    while(left>=0 && right < arr2.length) {
+        if(arr1[left] > arr2[right]) {
+            [arr1[left], arr2[right]] = [arr1[right], arr2[left]];
+            left--;
+            right++;
+        } else {
+            break;
+        }
+    }
+
+    arr1.sort((a:number, b:number):number => a-b)
+    arr2.sort((a:number, b:number):number => a-b)
+
+    console.log(arr1, arr2)
+}
+
+const nums1: number[] = [1, 3, 5, 7];
+const nums2: number[] = [0, 2, 6, 8, 9];
 
 const mergedArray: number[] = mergeSortedArrays(nums1, nums2);
-console.log(mergedArray); // [1, 2, 2, 3, 5, 6]
+console.log(mergedArray); // [0, 1, 2, 3, 5, 6, 7, 8, 9]
+
+
+
+mergeSortedArraysWithoutExtraSpace(nums1, nums2);

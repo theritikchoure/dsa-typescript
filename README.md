@@ -134,13 +134,21 @@ The below table includes all the questions, which I have solved.
 | ------ | ------ |
 | 1 | [Determine if the string is palindrome](./check_palindrome.ts) | 
 | 2 | [Count character/letter that is most commonly used in string](./max_chars.ts) | 
-| 3 |  [The classic fizzbuzz problem](./fizz_buzz.ts) | 
+| 3 | [The classic fizzbuzz problem](./fizz_buzz.ts) | 
 | 4 | [Chunk the array](./array_chunking.ts) | 
 | 5 | [Check provided two strings are anagram of each others](./anagrams.ts) | 
 | 6 | [Find linked list midpoint](./linkedlist_midpoint.ts) | 
-| 7 | [Two sum problem](./two_sum.ts) | 
+| 7 | [Two sum problem](./array/two_sum.ts) | 
 | 8 | [Sort array of 0s, 1s and 2s](./array/sort_0_1_2.ts) | 
 | 9 | [Find min and max element in array](./array/find_min_max.ts) | 
+| 10 | [Move negative element to the end of the array](./array/move_negative_element.ts) | 
+| 11 | [Merge sorted array (with and without extra space)](./array/mergeSortedArrays.ts) | 
+| 12 | [Reverse String)](./array/reverseString.ts) | 
+| 13 | [Spiral Matrix)](./spiral_matrix.ts) | 
+| 14 | [Reverse Integer)](./reverse_integer.ts) | 
+| 15 | [Print all divisors)](./print_all_divisors.ts) | 
+| 16 | [Find length of the longest substring without repeating characters)](./length_of_longest_substring.ts) | 
+| 17 | [Check number is armstrong number)](./check_armstrong_number.ts) | 
 
 
 ## Other Resources
