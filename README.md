@@ -151,6 +151,7 @@ The below table includes all the questions, which I have solved.
 | 17 | [Check number is armstrong number)](./check_armstrong_number.ts) | 
 | 18 | [Trapping Rain Water (google interview - hard)](./array/rain_water_trapping.ts) | 
 | 18 | [Alternate Swap](./array/alternate_swap.ts) | 
+| 18 | [Find array intersection](./array/find_array_intersection.ts) | 
 
 
 ## Other Resources
