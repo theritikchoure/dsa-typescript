@@ -150,6 +150,7 @@ The below table includes all the questions, which I have solved.
 | 16 | [Find length of the longest substring without repeating characters)](./length_of_longest_substring.ts) | 
 | 17 | [Check number is armstrong number)](./check_armstrong_number.ts) | 
 | 18 | [Trapping Rain Water (google interview - hard)](./array/rain_water_trapping.ts) | 
+| 18 | [Alternate Swap](./array/alternate_swap.ts) | 
 
 
 ## Other Resources
