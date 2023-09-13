@@ -5,6 +5,9 @@ function findArrayIntersection(arr1:number[], arr2:number[]):number[] {
 
     let ans:number[] = [];
 
+    arr1.sort((a, b) => a-b);
+    arr2.sort((a, b) => a-b);
+
     while(i < arr1.length && j < arr2.length) {
         if(arr1[i] < arr2[j]) {
             i++;
@@ -24,8 +27,8 @@ function findArrayIntersection(arr1:number[], arr2:number[]):number[] {
     return ans;
 }
 
-let intersectionArr1:number[] = [1, 2, 2, 2, 3, 4];
-let intersectionArr2:number[] = [2, 2, 3, 3];
+let intersectionArr1:number[] = [4, 9, 5];
+let intersectionArr2:number[] = [9, 4, 9, 8, 4];
 
 let intersectionArr:number[] = findArrayIntersection(intersectionArr1, intersectionArr2);
 

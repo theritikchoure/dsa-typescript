@@ -130,29 +130,41 @@ The Big O notation of an algorithm can be simplified using the following two rul
 
 The below table includes all the questions, which I have solved.
 
-| S.No | Questions | 
-| ------ | ------ |
-| 1 | [Determine if the string is palindrome](./check_palindrome.ts) | 
-| 2 | [Count character/letter that is most commonly used in string](./max_chars.ts) | 
-| 3 | [The classic fizzbuzz problem](./fizz_buzz.ts) | 
-| 4 | [Chunk the array](./array_chunking.ts) | 
-| 5 | [Check provided two strings are anagram of each others](./anagrams.ts) | 
-| 6 | [Find linked list midpoint](./linkedlist_midpoint.ts) | 
-| 7 | [Two sum problem](./array/two_sum.ts) | 
-| 8 | [Sort array of 0s, 1s and 2s](./array/sort_0_1_2.ts) | 
-| 9 | [Find min and max element in array](./array/find_min_max.ts) | 
-| 10 | [Move negative element to the end of the array](./array/move_negative_element.ts) | 
-| 11 | [Merge sorted array (with and without extra space)](./array/mergeSortedArrays.ts) | 
-| 12 | [Reverse String)](./array/reverseString.ts) | 
-| 13 | [Spiral Matrix)](./spiral_matrix.ts) | 
-| 14 | [Reverse Integer)](./reverse_integer.ts) | 
-| 15 | [Print all divisors)](./print_all_divisors.ts) | 
-| 16 | [Find length of the longest substring without repeating characters)](./length_of_longest_substring.ts) | 
-| 17 | [Check number is armstrong number)](./check_armstrong_number.ts) | 
-| 18 | [Trapping Rain Water (google interview - hard)](./array/rain_water_trapping.ts) | 
-| 18 | [Alternate Swap](./array/alternate_swap.ts) | 
-| 18 | [Find array intersection](./array/find_array_intersection.ts) | 
+### Arrays
 
+| S.No | Questions | 
+| ------ | ------ | 
+| 1 | [Two sum problem](./array/two_sum.ts) | 
+| 2 | [Sort array of 0s, 1s and 2s](./array/sort_0_1_2.ts) | 
+| 3 | [Find min and max element in array](./array/find_min_max.ts) | 
+| 4 | [Move negative element to the end of the array](./array/move_negative_element.ts) | 
+| 5 | [Merge sorted array (with and without extra space)](./array/mergeSortedArrays.ts) | 
+| 6 | [Reverse String)](./array/reverseString.ts) | 
+| 7 | [Spiral Matrix)](./spiral_matrix.ts) | 
+| 8 | [Reverse Integer)](./reverse_integer.ts) | 
+| 9 | [Print all divisors)](./print_all_divisors.ts) | 
+| 10 | [Find length of the longest substring without repeating characters)](./length_of_longest_substring.ts) | 
+| 11 | [Trapping Rain Water (google interview - hard)](./array/rain_water_trapping.ts) | 
+| 12 | [Alternate Swap](./array/alternate_swap.ts) | 
+| 13 | [Find array intersection](./array/find_array_intersection.ts) | 
+
+### Strings
+
+| S.No | Questions | 
+| ------ | ------ | 
+| 1 | [Check number is armstrong number)](./check_armstrong_number.ts) | 
+| 2 | [Determine if the string is palindrome](./check_palindrome.ts) | 
+| 3 | [Count character/letter that is most commonly used in string](./max_chars.ts) | 
+| 4 | [The classic fizzbuzz problem](./fizz_buzz.ts) | 
+| 5 | [Chunk the array](./array_chunking.ts) | 
+| 6 | [Check provided two strings are anagram of each others](./anagrams.ts) | 
+| 7 | [Find linked list midpoint](./linkedlist_midpoint.ts) |
+
+### Binary Search
+| S.No | Questions | 
+| ------ | ------ | 
+| 1 | [First and last occurrence of element)](./binarysearch/first_last_occurrence.ts) |
+| 1 | [Peak index in a mountain array)](./binarysearch/peak_in_mountain_arr.ts) |
 
 ## Other Resources
 
