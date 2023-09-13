@@ -164,7 +164,8 @@ The below table includes all the questions, which I have solved.
 | S.No | Questions | 
 | ------ | ------ | 
 | 1 | [First and last occurrence of element)](./binarysearch/first_last_occurrence.ts) |
-| 1 | [Peak index in a mountain array)](./binarysearch/peak_in_mountain_arr.ts) |
+| 2 | [Peak index in a mountain array)](./binarysearch/peak_in_mountain_arr.ts) |
+| 3 | [Pivot in rotated sorted array)](./binarysearch/pivot_in_rotated_arr.ts) |
 
 ## Other Resources
 
