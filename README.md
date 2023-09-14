@@ -166,6 +166,7 @@ The below table includes all the questions, which I have solved.
 | 1 | [First and last occurrence of element)](./binarysearch/first_last_occurrence.ts) |
 | 2 | [Peak index in a mountain array)](./binarysearch/peak_in_mountain_arr.ts) |
 | 3 | [Pivot in rotated sorted array)](./binarysearch/pivot_in_rotated_arr.ts) |
+| 4 | [Search in rotated sorted array)](./binarysearch/search_in_rotated_arr.ts) |
 
 ## Other Resources
 
