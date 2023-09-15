@@ -1,5 +1,9 @@
 # Data Structures and Algorithms (DSA) in TypeScript
 
+[![GitHub License](https://img.shields.io/badge/License-MIT-ff69b4.svg)](https://github.com/theritikchoure/dsa-typescript/blob/main/LICENSE)
+[![Typescript](https://img.shields.io/badge/Typescript-Reference-0000.svg)](https://www.typescriptlang.org/docs/)
+
+
 Welcome to the Data Structures and Algorithms (DSA) repository! This repository is dedicated to providing a collection of DSA problems and their solutions in a clear and well-documented format.
 
 <!-- Badges -->
@@ -15,9 +19,10 @@ Welcome to the Data Structures and Algorithms (DSA) repository! This repository 
 
 1. [Big O](#big-0)
 2. [Different Complexities](#different-complexities)
-3. [Questions](#questions)
-3. [Other Resources](#other-resources)
-5. [FAQ](#faq)
+3. [Running Tests](#running-tests)
+5. [Questions](#questions)
+5. [Other Resources](#other-resources)
+6. [FAQ](#faq)
 
 
 ## Big O
@@ -80,7 +85,7 @@ t│    .
  └────────────────────────►
               n
 ```
-* This figure is taken from [Complexit Analysis by @Spring1843](https://github.com/spring1843/go-dsa/blob/main/complexity.md)
+* This figure is taken from [Complexity Analysis by @Spring1843](https://github.com/spring1843/go-dsa/blob/main/complexity.md)
 
 
 To understand the big O notation, let us focus on time complexity and specifically examine the O(n) diagram. This diagram depicts a decline in algorithm performance as the input size increases. In contrast, the O(1) diagram represents an algorithm that consistently performs in constant time, with input size having no impact on its efficiency. Consequently, the latter algorithm generally outperforms the former.
@@ -126,6 +131,26 @@ The Big O notation of an algorithm can be simplified using the following two rul
 |----------------------------------|----------------------------------------|--------------------|
 
 
+## Running Tests
+You can easily run the tests for this project using [Jest](https://jestjs.io/), a JavaScript testing framework.
+
+### Prerequisites
+
+Before running the tests, make sure you have installed the required packages. To install the required packages, run below command:
+
+```shell
+npm install
+```
+
+### Running All Tests
+
+To run all the tests in the project, execute the following command in your terminal:
+
+```shell
+npm test
+```
+
+
 ## Questions
 
 The below table includes all the questions, which I have solved.
@@ -155,7 +180,7 @@ The below table includes all the questions, which I have solved.
 | 1 | [Check number is armstrong number)](./check_armstrong_number.ts) | 
 | 2 | [Determine if the string is palindrome](./check_palindrome.ts) | 
 | 3 | [Count character/letter that is most commonly used in string](./max_chars.ts) | 
-| 4 | [The classic fizzbuzz problem](./fizz_buzz.ts) | 
+| 4 | [The classic fizz buzz problem](./fizz_buzz.ts) | 
 | 5 | [Chunk the array](./array_chunking.ts) | 
 | 6 | [Check provided two strings are anagram of each others](./anagrams.ts) | 
 | 7 | [Find linked list midpoint](./linkedlist_midpoint.ts) |
@@ -217,3 +242,7 @@ If you encounter issues with the code or have questions about specific problems,
 ### 9. Is there a license for this repository?
 
 Yes, this repository is open-source and available under the [License](#license) mentioned in this README. Please review the license terms before using or contributing to the repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

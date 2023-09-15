@@ -18,7 +18,7 @@
 
 // ? Time complexity - O(Log N)
 //? Space complexity - O(1)
-function findFirstOccur(nums: number[], target: number): number {
+export function findFirstOccur(nums: number[], target: number): number {
     // Initialize the position to -1 (in case the target is not found)
     let pos: number = -1;
 
@@ -51,7 +51,7 @@ function findFirstOccur(nums: number[], target: number): number {
     return pos;
 }
 
-function findLastOccur(nums: number[], target: number): number {
+export function findLastOccur(nums: number[], target: number): number {
     // Initialize the position to -1 (in case the target is not found)
     let pos: number = -1;
 
@@ -84,7 +84,7 @@ function findLastOccur(nums: number[], target: number): number {
     return pos;
 }
 
-function findFirstLastOccurrence(nums: number[], target: number): number[] {
+export function findFirstLastOccurrence(nums: number[], target: number): number[] {
     // Find the first and last occurrences of the target using the two helper functions
     let first: number = findFirstOccur(nums, target);
     let last: number = findLastOccur(nums, target);
@@ -95,4 +95,4 @@ function findFirstLastOccurrence(nums: number[], target: number): number[] {
 
 let findOccurrenceArr:number[] = [5,7,7,8,8,8,10];
 
-console.log(findFirstLastOccurrence(findOccurrenceArr, 7))
+console.log(findFirstLastOccurrence(findOccurrenceArr, 7));
