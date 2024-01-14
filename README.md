@@ -159,39 +159,48 @@ The below table includes all the questions, which I have solved.
 
 | S.No | Questions | 
 | ------ | ------ | 
-| 1 | [Two sum problem](./array/two_sum.ts) | 
-| 2 | [Sort array of 0s, 1s and 2s](./array/sort_0_1_2.ts) | 
-| 3 | [Find min and max element in array](./array/find_min_max.ts) | 
-| 4 | [Move negative element to the end of the array](./array/move_negative_element.ts) | 
-| 5 | [Merge sorted array (with and without extra space)](./array/mergeSortedArrays.ts) | 
-| 6 | [Reverse String)](./array/reverseString.ts) | 
-| 7 | [Spiral Matrix)](./spiral_matrix.ts) | 
-| 8 | [Reverse Integer)](./reverse_integer.ts) | 
-| 9 | [Print all divisors)](./print_all_divisors.ts) | 
-| 10 | [Find length of the longest substring without repeating characters)](./length_of_longest_substring.ts) | 
-| 11 | [Trapping Rain Water (google interview - hard)](./array/rain_water_trapping.ts) | 
-| 12 | [Alternate Swap](./array/alternate_swap.ts) | 
-| 13 | [Find array intersection](./array/find_array_intersection.ts) | 
+| 1 | [Two sum problem](./array/two_sum.js) | 
+| 2 | [Sort array of 0s, 1s and 2s](./array/sort_0_1_2.js) | 
+| 3 | [Find min and max element in array](./array/find_min_max.js) | 
+| 4 | [Move negative element to the end of the array](./array/move_negative_element.js) | 
+| 5 | [Merge sorted array (with and without extra space)](./array/mergeSortedArrays.js) | 
+| 6 | [Reverse String)](./array/reverseString.js) | 
+| 7 | [Spiral Matrix)](./spiral_matrix.js) | 
+| 8 | [Reverse Integer)](./reverse_integer.js) | 
+| 9 | [Print all divisors)](./print_all_divisors.js) | 
+| 10 | [Find length of the longest substring without repeating characters)](./length_of_longest_substring.js) | 
+| 11 | [Trapping Rain Water (google interview - hard)](./array/rain_water_trapping.js) | 
+| 12 | [Alternate Swap](./array/alternate_swap.js) | 
+| 13 | [Find array intersection](./array/find_array_intersection.js) | 
+
+### Linked List
+| S.No | Questions | 
+| ------ | ------ | 
+| 1 | [Implement Stack Using Linked List](./linkedinlist/stack_using_ll.js) | 
+| 2 | [Find kth node from end of a Linked list](./linkedinlist/find_kth_node_from_end.js) | 
+| 3 | [Linked List has loop or not](./linkedinlist/has_loop.js) | 
+| 4 | [Insert in a sorted linked list](./linkedinlist/insert_in_sorted_ll.js) | 
+| 4 | [Reverse linked list](./linkedinlist/reverse_ll.js) | 
 
 ### Strings
 
 | S.No | Questions | 
 | ------ | ------ | 
-| 1 | [Check number is armstrong number)](./check_armstrong_number.ts) | 
-| 2 | [Determine if the string is palindrome](./check_palindrome.ts) | 
-| 3 | [Count character/letter that is most commonly used in string](./max_chars.ts) | 
-| 4 | [The classic fizz buzz problem](./fizz_buzz.ts) | 
-| 5 | [Chunk the array](./array_chunking.ts) | 
-| 6 | [Check provided two strings are anagram of each others](./anagrams.ts) | 
-| 7 | [Find linked list midpoint](./linkedlist_midpoint.ts) |
+| 1 | [Check number is armstrong number)](./check_armstrong_number.js) | 
+| 2 | [Determine if the string is palindrome](./check_palindrome.js) | 
+| 3 | [Count character/letter that is most commonly used in string](./max_chars.js) | 
+| 4 | [The classic fizz buzz problem](./fizz_buzz.js) | 
+| 5 | [Chunk the array](./array_chunking.js) | 
+| 6 | [Check provided two strings are anagram of each others](./anagrams.js) | 
+| 7 | [Find linked list midpoint](./linkedlist_midpoint.js) |
 
 ### Binary Search
 | S.No | Questions | 
 | ------ | ------ | 
-| 1 | [First and last occurrence of element)](./binarysearch/first_last_occurrence.ts) |
-| 2 | [Peak index in a mountain array)](./binarysearch/peak_in_mountain_arr.ts) |
-| 3 | [Pivot in rotated sorted array)](./binarysearch/pivot_in_rotated_arr.ts) |
-| 4 | [Search in rotated sorted array)](./binarysearch/search_in_rotated_arr.ts) |
+| 1 | [First and last occurrence of element)](./binarysearch/first_last_occurrence.js) |
+| 2 | [Peak index in a mountain array)](./binarysearch/peak_in_mountain_arr.js) |
+| 3 | [Pivot in rotated sorted array)](./binarysearch/pivot_in_rotated_arr.js) |
+| 4 | [Search in rotated sorted array)](./binarysearch/search_in_rotated_arr.js) |
 
 ## Other Resources
 
