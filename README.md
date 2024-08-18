@@ -180,7 +180,9 @@ The below table includes all the questions, which I have solved.
 | 2 | [Find kth node from end of a Linked list](./linkedinlist/find_kth_node_from_end.js) | 
 | 3 | [Linked List has loop or not](./linkedinlist/has_loop.js) | 
 | 4 | [Insert in a sorted linked list](./linkedinlist/insert_in_sorted_ll.js) | 
-| 4 | [Reverse linked list](./linkedinlist/reverse_ll.js) | 
+| 5 | [Reverse linked list](./linkedinlist/reverse_ll.js) | 
+| 6 | [Find mid point of LL](./linkedinlist/linkedlist_midpoint.js) | 
+| 7 | [Remove duplicates from sorted LL](./linkedinlist/remove_duplicates_from_sorted_ll.js) | 
 
 ### Strings
 
